@@ -1,5 +1,5 @@
 from gestion_datos import cargar_datos, guardar_datos
-from gestion_herramientas import agregar_herramienta, listar_herramienta, buscar_herramienta, actualizar_herramientas, eliminar_herramienta
+from gestion_herramientas import agregar_herramienta, listar_herramienta, buscar_herramienta, actualizar_herramientas, eliminar_herramienta, activar_inactivar
 
 def menu():
     datos = cargar_datos()
@@ -18,8 +18,9 @@ def menu():
 {VERDE}2. Listar Herramientas{RESET}
 {VERDE}3. Buscar Herramienta{RESET}
 {VERDE}4. Actualizar Herrramienta{RESET}
-{VERDE}5. Eliminar Herramienta{RESET}
-{VERDE}6. Guardar y salir{RESET}
+{VERDE}5. Activar o Inactivar Herramienta{RESET}
+{VERDE}6. Eliminar Herramienta{RESET}
+{VERDE}7. Guardar y salir{RESET}
 
 {AZUL}====================================={RESET}
         """)
@@ -29,19 +30,29 @@ def menu():
         if opcion == "1":
             id_herramienta = input("\n\n\nIngrese el ID de la Herramienta:  ")
             agregar_herramienta(datos, id_herramienta)
+
         elif opcion == "2":
             listar_herramienta(datos)
+
         elif opcion == "3":
             buscar_herramienta(datos, id_herramienta)
             pass
-           
         elif opcion == "4":
             id_herramienta = input("\n\n\nIngrese el ID de la Herramienta:   ")
-            categoria = 
+            categoria = input("Igrese categoria:  ")
+            cantidad = input("Ingrese cantidad: ")
+            disponibilidad = input("Ingrese disponibilidad:  ")
+            actualizar_herramientas(datos, id_herramienta, categoria, cantidad, disponibilidad)
 
         elif opcion == "5":
-            pass
+            id_herramienta = input("\n\n\nIngrese ID de la herramienta: ")
+            activar_inactivar(datos, id_herramienta)
+
         elif opcion == "6":
+            id_herramienta = input("\n\n\nIngrese ID de la herramienta: ")
+            eliminar_herramienta(datos, id_herramienta)
+
+        elif opcion == "7":
             guardar_datos(datos)
             print("Datos guardados. Saliendo ... \n\n")
             break
