@@ -1,8 +1,8 @@
-from gestion_datos import cargar_datos, guardar_datos
+from gestion_datos import cargar_datos_prestamos, guardar_datos_prestamos
 from gestion_prestamos import registrar_prestamo, eliminar_prestamo, consultas_reportes
 
 def menu():
-    datos = cargar_datos()
+    datos = cargar_datos_prestamos()
 
     while True:
         AZUL = "\033[34m"
@@ -37,7 +37,7 @@ def menu():
             consultas_reportes(datos, id_herramienta)
 
         elif opcion == "4":
-            guardar_datos(datos)
+            guardar_datos_prestamos(datos)
             print("Datos guardados. Saliendo ... \n\n")
             break
         else:

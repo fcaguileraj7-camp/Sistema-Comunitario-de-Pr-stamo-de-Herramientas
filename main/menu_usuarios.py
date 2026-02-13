@@ -1,8 +1,8 @@
-from gestion_datos import cargar_datos, guardar_datos
+from gestion_datos import cargar_datos_usuarios, guardar_datos_usuarios
 from gestion_usuarios import agregar_usuario, listar_usuarios, buscar_usuario, actualizar_usuario, eliminar_usuario
 
 def menu():
-    datos = cargar_datos()
+    datos = cargar_datos_usuarios()
 
     while True:
         AZUL = "\033[34m"
@@ -51,7 +51,7 @@ def menu():
             eliminar_usuario(datos, id_usuario)
 
         elif opcion == "6":
-            guardar_datos(datos)
+            guardar_datos_usuarios(datos)
             print("Datos guardados. Saliendo ... \n\n")
             break
         else:

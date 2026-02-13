@@ -1,8 +1,8 @@
-from gestion_datos import cargar_datos, guardar_datos
+from gestion_datos import cargar_datos_herramientas, guardar_datos_herramientas
 from gestion_herramientas import agregar_herramienta, listar_herramienta, buscar_herramienta, actualizar_herramientas, eliminar_herramienta, activar_inactivar
 
 def menu():
-    datos = cargar_datos()
+    datos = cargar_datos_herramientas()
 
     while True:
         AZUL = "\033[34m"
@@ -53,7 +53,7 @@ def menu():
             eliminar_herramienta(datos, id_herramienta)
 
         elif opcion == "7":
-            guardar_datos(datos)
+            guardar_datos_herramientas(datos)
             print("Datos guardados. Saliendo ... \n\n")
             break
         else:
