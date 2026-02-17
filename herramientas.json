@@ -1,1 +1,12 @@
-{}
+{
+    "herramientas": {
+        "H01": {
+            "nombre": "Taladro",
+            "categoria": "Construccion",
+            "cantidad_disponible": 5,
+            "estado": "activa",
+            "valor_estimado": 200000,
+            "activo": true
+        }
+    }
+}

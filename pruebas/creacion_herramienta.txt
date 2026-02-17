@@ -1,0 +1,13 @@
+CREACIÓN DE HERRAMIENTA
+
+Entrada:
+ID: H01
+Nombre: Taladro
+Categoría: Construcción
+Cantidad: 5
+Estado: activa
+Valor estimado: 250000
+
+Resultado esperado:
+Herramienta creada correctamente.
+Se almacena con activo = True.

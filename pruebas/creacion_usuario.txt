@@ -1,0 +1,16 @@
+CREACIÓN DE USUARIO
+
+Entrada:
+ID: 1001
+Nombre: Carlos
+Apellido: Pérez
+Teléfono: 3001234567
+Dirección: Calle 10 #20-30
+Tipo: usuario
+
+Proceso:
+Se registra usuario en el sistema.
+
+Resultado esperado:
+Usuario creado correctamente.
+Se almacena en usuarios.json con estado activo = True.

@@ -1,0 +1,13 @@
+SOLICITUD DE PRÉSTAMO
+
+Entrada:
+ID solicitud: P01
+Usuario: 1001
+Herramienta: H01
+Cantidad: 2
+Fecha inicio: 2026-02-16
+Fecha devolución: 2026-02-20
+
+Resultado esperado:
+Solicitud creada con estado "pendiente".
+No se descuenta stock aún.
