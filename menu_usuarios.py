@@ -36,10 +36,58 @@ def menu():
                 continue
 
             nombre = input("Ingrese Nombre: ")
+            while True:
+                nombre = input("Ingrese Nombre: ").strip()
+                if nombre == "":
+                    print("El nombre no puede estar vacío.")
+                else:
+                    break
+
             apellido = input("Ingrese Apellido: ")
-            telefono = input("Ingrese Teléfono: ")
+            while True:
+                apellido = input("Ingrese Apellido: ").strip()
+                if apellido == "":
+                    print("El apellido no puede estar vacío.")
+                else:
+                    break
+                
+            telefono = input("Ingrese Teléfono (10 dígitos, sin empezar en 0): ")
+            while True:
+                telefono = input("Ingrese Teléfono (10 dígitos, sin empezar en 0): ").strip()
+
+                if telefono == "":
+                    print("El teléfono no puede estar vacío.")
+                    continue
+
+                if not telefono.isdigit():
+                    print("El teléfono debe contener solo números.")
+                    continue
+
+                if len(telefono) != 10:
+                    print("El teléfono debe tener exactamente 10 dígitos.")
+                    continue
+
+                if telefono.startswith("0"):
+                    print("El teléfono no puede iniciar con 0.")
+                    continue
+
+                break
+               
             direccion = input("Ingrese Dirección: ")
+            while True:
+                direccion = input("Ingrese Dirección: ").strip()
+                if direccion == "":
+                    print("La dirección no puede estar vacía.")
+                else:
+                    break
+                
             tipo = input("Ingrese tipo de Usuario (usuario/administrador): ")
+            while True:
+                tipo = input("Ingrese tipo de Usuario (usuario/administrador): ").strip().lower()
+                if tipo not in ["usuario", "administrador"]:
+                    print("Tipo de usuario inválido. Debe ser 'usuario' o 'administrador'.")
+                else:
+                    break
 
             agregar_usuario(datos, id_usuario, nombre, apellido, telefono, direccion, tipo)
 
