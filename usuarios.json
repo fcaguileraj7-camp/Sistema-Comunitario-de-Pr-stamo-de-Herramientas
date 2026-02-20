@@ -1,0 +1,36 @@
+{
+    "usuarios": {
+        "8640": {
+            "nombre": "Maria",
+            "apellido": "Sandoval",
+            "telefono": "3168701269",
+            "direccion": "calle 23 # 4 - 50",
+            "tipo_usuario": "usuario",
+            "activo": true
+        },
+        "0911": {
+            "nombre": "Raul",
+            "apellido": "Sandoval",
+            "telefono": "3158931579",
+            "direccion": "cra 18 # 158-72",
+            "tipo_usuario": "usuario",
+            "activo": true
+        },
+        "5469": {
+            "nombre": "Lina",
+            "apellido": "Qui\u00f1onez",
+            "telefono": "3173793984",
+            "direccion": "cra 18 # 158-72",
+            "tipo_usuario": "usuario",
+            "activo": true
+        },
+        "9054": {
+            "nombre": "Fabian",
+            "apellido": "Aguilera",
+            "telefono": "3102793386",
+            "direccion": "calle 23 #4-50",
+            "tipo_usuario": "administrador",
+            "activo": true
+        }
+    }
+}

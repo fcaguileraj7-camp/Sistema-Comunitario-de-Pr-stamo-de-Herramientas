@@ -1,0 +1,31 @@
+{
+    "prestamos": {
+        "P001": {
+            "usuario_id": "8640",
+            "herramienta_id": "Pala004",
+            "cantidad": 2,
+            "fecha_inicio": "20-02-2026",
+            "fecha_devolucion": "22-02-2026",
+            "estado": "activo",
+            "observaciones": "Uso domestico"
+        },
+        "P002": {
+            "usuario_id": "0911",
+            "herramienta_id": "Mart001",
+            "cantidad": 2,
+            "fecha_inicio": "20/02/2026",
+            "fecha_devolucion": "25-02-2026",
+            "estado": "activo",
+            "observaciones": "uso en obra"
+        },
+        "P003": {
+            "usuario_id": "5469",
+            "herramienta_id": "Rega003",
+            "cantidad": 1,
+            "fecha_inicio": "2020-01-20",
+            "fecha_devolucion": "2020-01-21",
+            "estado": "rechazado",
+            "observaciones": "uso domestico"
+        }
+    }
+}

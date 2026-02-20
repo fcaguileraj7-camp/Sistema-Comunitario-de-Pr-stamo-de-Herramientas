@@ -1,4 +1,6 @@
-[2026-02-16 22:23:14] Solicitud creada - ID: P01
-[2026-02-16 22:24:21] Préstamo aprobado - ID: P01
-[2026-02-16 22:25:19] Préstamo devuelto - ID: P01
-[2026-02-16 22:28:26] Solicitud con usuario inactivo: 1001
+[2026-02-20 10:57:13] Solicitud creada - ID: P001
+[2026-02-20 10:59:56] Solicitud creada - ID: P002
+[2026-02-20 11:00:47] Préstamo aprobado - ID: P001
+[2026-02-20 11:05:06] Préstamo aprobado - ID: P002
+[2026-02-20 11:06:43] Solicitud creada - ID: P003
+[2026-02-20 11:07:05] Solicitud rechazada - ID: P003

@@ -35,7 +35,6 @@ def menu():
                 input("Presione Enter para continuar...")
                 continue
 
-            nombre = input("Ingrese Nombre: ")
             while True:
                 nombre = input("Ingrese Nombre: ").strip()
                 if nombre == "":
@@ -43,7 +42,6 @@ def menu():
                 else:
                     break
 
-            apellido = input("Ingrese Apellido: ")
             while True:
                 apellido = input("Ingrese Apellido: ").strip()
                 if apellido == "":
@@ -51,7 +49,6 @@ def menu():
                 else:
                     break
                 
-            telefono = input("Ingrese Teléfono (10 dígitos, sin empezar en 0): ")
             while True:
                 telefono = input("Ingrese Teléfono (10 dígitos, sin empezar en 0): ").strip()
 
@@ -73,7 +70,6 @@ def menu():
 
                 break
                
-            direccion = input("Ingrese Dirección: ")
             while True:
                 direccion = input("Ingrese Dirección: ").strip()
                 if direccion == "":
@@ -81,7 +77,6 @@ def menu():
                 else:
                     break
                 
-            tipo = input("Ingrese tipo de Usuario (usuario/administrador): ")
             while True:
                 tipo = input("Ingrese tipo de Usuario (usuario/administrador): ").strip().lower()
                 if tipo not in ["usuario", "administrador"]:

@@ -1,0 +1,44 @@
+{
+    "herramientas": {
+        "Mart001": {
+            "nombre": "Martillo",
+            "categoria": "Construccion",
+            "cantidad_disponible": 8,
+            "estado": "activa",
+            "valor_estimado": 5000,
+            "activo": true
+        },
+        "Dest002": {
+            "nombre": "Destornillador pala",
+            "categoria": "construccion",
+            "cantidad_disponible": 5,
+            "estado": "activa",
+            "valor_estimado": 3500,
+            "activo": true
+        },
+        "Rega003": {
+            "nombre": "Regador",
+            "categoria": "Jardineria",
+            "cantidad_disponible": 4,
+            "estado": "activa",
+            "valor_estimado": 8000,
+            "activo": true
+        },
+        "Pala004": {
+            "nombre": "Pala",
+            "categoria": "Construccion",
+            "cantidad_disponible": 2,
+            "estado": "activa",
+            "valor_estimado": 12000,
+            "activo": true
+        },
+        "Rast005": {
+            "nombre": "Rastrillo",
+            "categoria": "Jardineria",
+            "cantidad_disponible": 2,
+            "estado": "activa",
+            "valor_estimado": 9000,
+            "activo": true
+        }
+    }
+}
